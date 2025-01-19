@@ -9,11 +9,26 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__container__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            </h1>
+            <ul class="header__container__links">
+                <li class="header__container__links__item">
+                    <a href="#" class="button button--secondary">ASSINE AGORA</a>
+                </li>
+                <li class="header__container__links__item">
+                    <a href="#" class="button button--dark">ENTRAR</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__content__branding">
+            <div class="hero__content__branding">
                 <img src="./dist/images/disneyplus.svg" alt="Disney+">
-            </h1>
+            </div>
             <h3 class="title--small">
                 As melhores histórias em um só lugar.
             </h3>
@@ -124,7 +139,7 @@
                 <p class="text--big">
                     No Disney+ voce encontra as ultimas estreias do cinema, originais e classicos inesqueciveis.
                 </p>
-                <button class="button">Assine agora</button>
+                <button class="button">ASSINE AGORA</button>
             </li>
             <li class="plans__list__item">
                 <img src="./dist/images/logos/disney_star_plus_sm.png" alt="Disney+">
@@ -132,7 +147,7 @@
                 <p class="text--big">
                     Assine Disney+ e Star+ juntos. Economize e aproveite agora os dois servicos por um preco unico.
                 </p>
-                <button class="button">Assine agora</button>
+                <button class="button">ASSINE AGORA</button>
             </li>
             <li class="plans__list__item">
                 <img src="./dist/images/logos/disney_star_plus_starzplay_underline.png" alt="Disney+">
@@ -140,13 +155,232 @@
                 <p class="text--big">
                     Disney+, Star+ e STARZPLAY em um plano especial. Assine agora os tres servios juntos.
                 </p>
-                <button class="button">Assine agora</button>
+                <button class="button">ASSINE AGORA</button>
             </li>
         </ul>
         <p class="text--small">
             *O preco pode variar caso a assinatura seja feita atraves de outras plataformas.
         </p>
     </section>
+    <section class="image-text-section">
+        <img src="./dist/images/tv_pc_tablet_celular.png" alt="Imagem com TV, Computador, tablet e celular">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Assista do seu jeito</h2>
+            <p class="text--big">
+                Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa selecao de
+                títulos em 4k nao para de crescer. Alem disso, para a felicidade de todos, é possivel assistir em até 4
+                telas ao mesmo tempo.
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
+            <img src="./dist/images/fundo_rei_leao.png" alt="Rei leao">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="title">Baixe filmes e séries</h2>
+            <p class="text--big">
+                Baixe e assista quando e onde quiser. Assim, seus favoritos estao sempre com voce, até mesmo sem
+                internet.
+            </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>
+                        ChromeOS
+                    </li>
+                    <li>
+                        MacOS
+                    </li>
+                    <li>
+                        PC Windows
+                    </li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/tv.png" alt="Televisao">
+                <h4 class="title--small">Televisao</h4>
+                <ul class="text">
+                    <li>
+                        Amazon FireTV
+                    </li>
+                    <li>
+                        Android TV
+                    </li>
+                    <li>
+                        Apple TV
+                    </li>
+                    <li>
+                        Chromecast
+                    </li>
+                    <li>
+                        TVs LG
+                    </li>
+                    <li>
+                        Roku
+                    </li>
+                    <li>
+                        Samsung
+                    </li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/videogames.png" alt="videogames">
+                <h4 class="title--small">Videogames</h4>
+                <ul class="text">
+                    <li>
+                        PS4
+                    </li>
+                    <li>
+                        PS5
+                    </li>
+                    <li>
+                        Xbox One
+                    </li>
+                    <li>
+                        Xbox Series X
+                    </li>
+                    <li>
+                        Xbox Series S
+                    </li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/celular.png" alt="celular e tablet">
+                <h4 class="title--small">Celulares e tablets</h4>
+                <ul class="text">
+                    <li>
+                        Tablets Amazon Fire
+                    </li>
+                    <li>
+                        Celulares e Tablets Android
+                    </li>
+                    <li>
+                        iPhones e iPads
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Posso compartilhar minha conta do Disney+ com outras pessoas?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Sim! Você pode criar até 7 perfis em uma única conta Disney+, permitindo que cada membro da família
+                    tenha uma experiência personalizada. No entanto, o número de transmissões simultâneas é limitado a 4
+                    dispositivos. Recomendamos que sua conta seja usada apenas por membros do mesmo domicílio, conforme
+                    nossos Termos de Uso.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Como faço para baixar filmes e séries para assistir offline?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Para assistir offline, basta seguir estes passos: <br />
+
+                    - Abra o aplicativo Disney+ no seu dispositivo móvel.<br />
+                    - Selecione o filme ou série que deseja baixar.<br />
+                    - Clique no ícone de download ao lado do título.<br />
+                    - Aguarde o download ser concluído.<br /><br />
+                    Você pode acessar os conteúdos baixados na aba "Downloads" do aplicativo. Lembre-se de que eles
+                    ficam disponíveis apenas enquanto sua assinatura estiver ativa.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Posso cancelar minha assinatura do Disney+ a qualquer momento?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Sim! Você pode cancelar sua assinatura do Disney+ a qualquer momento sem cobrança de taxas
+                    adicionais. Para cancelar, siga estas etapas:<br /><br />
+
+                    - Acesse sua conta Disney+ no navegador.<br />
+                    - Vá até a seção "Assinatura e Faturamento".<br />
+                    - Clique em "Cancelar Assinatura" e siga as instruções na tela.<br /><br />
+                    Mesmo após o cancelamento, você poderá acessar o conteúdo até o final do período já pago.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    O Disney+ possui controle parental?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Sim! O Disney+ oferece recursos de controle parental para garantir que crianças tenham acesso apenas
+                    a conteúdos apropriados. Você pode:<br /><br />
+
+                    - Configurar um PIN para proteger perfis com conteúdos para maiores.<br />
+                    - Gerenciar classificações etárias e restrições diretamente nas configurações de cada perfil.<br />
+                    - Criar perfis infantis com uma interface adaptada e acesso limitado a conteúdos classificados como
+                    "livres".<br /><br />
+                    Essas opções podem ser ajustadas a qualquer momento no menu "Editar Perfis".
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="dist/images/disneyplus.svg" alt="Disney+">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="globo mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Portugues</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Políticas de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Oportunidades de Trabalho</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios com base em interesses</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Sobre o Disney+</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de uso</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                © Disney © Disney•Pixar © & ™ Lucasfilm LTD © 2024 MARVEL. Reservados todos os direitos, Disney
+                Entertainment.
+            </p>
+            <p class="text--small">
+                Disney+ é um servico pago, baseado em assinatura e sujeito a termos e condicoes. Servico Disney+ é
+                comercializado por The Walt Disney Company (Brasil) Ltda.
+                World Trade Center, Av. das Nacoes Unidas, 12.551, 12559, Piso 10, Sao Paulo/SP - CEP 04578-903, Brasil
+                e
+                CNPJ/M 73.042.962/0004-20.
+            </p>
+        </div>
+    </footer>
     <script src="./src/main.js"></script>
 </body>
 
