@@ -21,6 +21,11 @@
                 cursor: pointer;
                 position: relative;
 
+                @media (max-width: 768px) {
+                    font-size: 16px;
+                    padding: 0 12px 0 24px ;
+                }
+
                 &::after {
                     content: '+';
                     position: absolute;
@@ -30,6 +35,11 @@
                     display: flex;
                     align-items: center;
                     font-size: 40px;
+
+                    @media (max-width: 768px) {
+                        font-size: 20px;
+                        right: 16px;
+                    }
                 }
             }
 
@@ -38,6 +48,10 @@
                 overflow: hidden;
                 padding: 0 24px;
                 transition: height, .5s ease;
+
+                @media (max-width: 768px) {
+                    margin-top: 16px;
+                }
             }
 
             &--is-open {
